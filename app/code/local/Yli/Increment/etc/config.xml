@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+      <modules>
+        <Yli_Increment>
+          <version>0.1.0</version>
+        </Yli_Increment>
+      </modules>
+      <global>
+          <helpers>
+            <increment>
+              <class>Yli_Increment_Helper</class>
+            </increment>
+          </helpers>
+          <models>
+             <increment>
+                <class>Yli_Increment_Model</class>
+             </increment>
+             <eav>
+             	<rewrite>
+	       			<entity_type>Yli_Increment_Model_Eav_Entity_Type</entity_type>
+	            </rewrite>
+             </eav>
+          </models>
+      </global>
+</config>
